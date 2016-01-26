@@ -1,0 +1,7 @@
+html
+    head
+    body
+        p This is very simple app for getting file size in bytes. Choose file and click "Upload button", then next window with file size in JSON fomrat should open.
+        form(method="POST" enctype="multipart/form-data" action="/filesize" target="_blank")
+            input(type="file" name="upl")
+            input(type="submit")
